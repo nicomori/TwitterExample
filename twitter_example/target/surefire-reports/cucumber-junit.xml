@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.02326">
+<testcase classname="Twitter - interview Nicolas Mori" name="Access to twitter and write a post." time="9.02326">
+<system-out><![CDATA[Given I access to the browser "chrome" and the path "/Users/nico/Documents/workspace/twitter_example/".passed
+When I access to the "https://twitter.com/?lang=es".........................passed
+And I press in the button login.............................................passed
+And in the field username I access the "nicolas.mori+1@gmail.com"...........passed
+And in the field password I access the "a4610b".............................passed
+And I press in the button access............................................passed
+Then I verify the correct access to the dashboard...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
